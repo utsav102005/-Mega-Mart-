@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega Handle</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="navbar flex justify-between bg-red-200 rounded-box w-full ml-2 h-12">
+        <div class="logo self-center pl-4 font-bold text-lg">
+            Logo
+        </div>
+        <ul class="menu menu-vertical lg:menu-horizontal flex">
+            <li><a>Item 1</a></li>
+            <li><a>Item 2</a></li>
+            <li><a>Item 3</a></li>
+        </ul>
+    </div>
+
+    <div class="login">
+        <div class="hero bg-base-200">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <div class="text-center lg:text-left">
+                    <h1 class="text-5xl font-bold pb-10">Login now!</h1>
+                    <div class="card bg-red-200 w-full max-w-sm shrink-0 shadow-2xl">
+                        <div class="card-body">
+                            <fieldset class="fieldset">
+                                <label class="label">Email</label>
+                                <input type="email" class="input" placeholder="Email" />
+                                <label class="label">Password</label>
+                                <input type="password" class="input" placeholder="Password" />
+                                <div><a class="link link-hover">Forgot password?</a></div>
+                                <button class="btn btn-neutral mt-4">Login</button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="module" src="script.js"></script>
+
+</html>
